@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML - Forms</title>
+</head>
+
+<body>
+    <!-- Main heading -->
+    <h1>HTML Form Example</h1>
+
+    <!-- The form tag starts here -->
+    <!-- 'action' is the URL where the form data will be sent -->
+    <!-- 'method' specifies how data is sent: 'get' appends to URL, 'post' sends in body -->
+    <form action="/submit" method="post">
+
+        <!-- Input for user's name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <!-- Input for user's email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <!-- Input for password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <!-- Radio buttons -->
+        <!-- Radio buttons allow the user to choose only ONE option from a group -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <!--Range  -->
+        <label for="vol">Set volume:</label>
+        <input type="range" name="vol" id="vol" value="20" min="0" max="100" step="10">
+        <br><br>
+
+        <!-- Checkbox -->
+        <!-- Checkboxes let users select ZERO, ONE, or MULTIPLE options -->
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label>
+        <br>
+
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to the terms and conditions</label>
+        <br><br>
+
+        <!-- Submit button sends the form data -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
