@@ -1,0 +1,18 @@
+/* This is a comment in CSS */
+
+body {
+  background-color: #f0f8ff;
+}
+
+h1 {
+  color: darkblue;
+}
+
+p {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+}

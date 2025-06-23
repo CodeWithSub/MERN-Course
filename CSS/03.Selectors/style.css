@@ -1,0 +1,85 @@
+/* Universal selector */
+* {
+  font-family: 'Courier, monospace;
+
+}
+
+/* Elememnt selector */
+p {
+  background-color: antiquewhite;
+}
+
+button {
+  background-color: aquamarine;
+  font-family: monospace;
+  color: red;
+}
+
+form {
+  background-color: bisque;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Class selector */
+.highlight {
+  background-color: aliceblue;
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+
+.note {
+  background-color: aqua;
+}
+
+/* ID selecetor */
+#info-section {
+  background-color: aqua;
+  font-style: italic;
+  font-family: monospace, Arial, sans-serif;
+}
+
+/* Decendent selectors */
+.container p {
+  background-color: lightgreen;
+  font-size: 20px;
+
+}
+
+.links-section h2 {
+  text-decoration: underline lightpink dotted;
+}
+
+form h2 {
+  color: green;
+}
+
+form label {
+  color: blueviolet;
+}
+
+/* Attribute selectors */
+input[type="text"] {
+  background-color: lightblue;
+}
+
+input[type="email"] {
+  background-color: lightpink;
+}
+
+input[type="password"] {
+  background-color: rgb(120, 184, 69);
+  color: red;
+}
+
+input[type="submit"] {
+  background-color: rgb(24, 164, 245);
+}
+
+a[href="/internal-page.html"] {
+  color: red;
+  font-size: 20px;
+  text-decoration: underline wavy;
+}

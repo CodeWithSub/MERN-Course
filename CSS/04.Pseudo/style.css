@@ -1,0 +1,56 @@
+ body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+ }
+
+ h1 {
+   font-family: monospace;
+   color: blue;
+   text-align: center;
+ }
+
+ p {
+   background-color: bisque;
+ }
+
+ form {
+   background-color: aquamarine;
+ }
+
+ li {
+   background-color: aqua;
+ }
+
+ /* Pseudo class, A keyword added to a selector that specifies a special state of the selected element(s)*/
+ button:hover {
+   background-color: rgb(9, 238, 238);
+   color: blue;
+ }
+
+ button:active {
+   background-color: green;
+   color: aquamarine;
+ }
+
+ input[type="radio"]:checked+label {
+   color: rgb(203, 7, 7);
+ }
+
+ ul li:nth-child(2) {
+   color: lightcoral;
+ }
+
+ ol li:nth-child(1) {
+   color: lightcoral;
+   background-color: lightblue;
+ }
+ /* Pseudo elements, A keyword added to a selector that sets you styles to a specific part of the selected elements */
+p::first-letter{
+  color: Red;
+}
+ .para1::first-line{
+  color:brown;
+ }
+ *::selection{
+  background-color:lightcoral;
+ }

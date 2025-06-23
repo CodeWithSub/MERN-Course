@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Selectors Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <h1 id="main-title">CSS Selectors Playground</h1>
+
+  <p>This is a basic paragraph using an element selector.</p>
+
+  <p class="highlight">This paragraph has a class and can be styled with a class selector.</p>
+
+  <div class="container">
+    <h2>Inside a Container Div</h2>
+    <p>This paragraph is a descendant of a div with class <code>.container</code>.</p>
+    <span>This span is also inside the container div.</span>
+
+    <div class="nested-box">
+      <p>This is a deeply nested paragraph.</p>
+    </div>
+  </div>
+
+  <div id="info-section">
+    <h2 id="section-heading">Section with an ID</h2>
+    <p class="note">This paragraph is in a section with an ID and has a class.</p>
+    <button class="click-me">Click Me</button>
+    <button class="danger-btn">Delete</button>
+  </div>
+
+  <form>
+    <h2>Form Area (Attribute Selectors)</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter password" />
+
+    <input type="submit" value="Submit Form" />
+  </form>
+
+  <div class="links-section">
+    <h2>Some Links</h2>
+    <a href="https://example.com" target="_blank">External Link</a>
+    <a href="/internal-page.html">Internal Page</a>
+  </div>
+</body>
+
+</html>

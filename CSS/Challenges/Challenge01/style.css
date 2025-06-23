@@ -1,0 +1,32 @@
+.parent {
+  background-color: antiquewhite;
+  height: 220px;
+  width: 80px;
+  margin: 50px;
+  border: 2px solid black;
+
+}
+
+.red {
+  background-color: red;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.green {
+  background-color: green;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}

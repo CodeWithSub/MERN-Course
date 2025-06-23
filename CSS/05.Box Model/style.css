@@ -1,0 +1,74 @@
+html {
+  font-size: 16px;
+}
+
+h1 {
+  background-color: rgb(217, 235, 250);
+  text-align: center;
+  border: 2px solid lightcoral;
+  border-radius: 4px;
+}
+
+.first {
+  background-color: antiquewhite;
+  height: 150px;
+  width: 500px;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+
+.second {
+  background-color: aquamarine;
+  height: 200px;
+  width: 400px;
+  border: 2px solid blue;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
+.third {
+  display: inline;
+  background-color: burlywood;
+  margin: 10px;
+}
+
+button {
+  background-color: lightpink;
+  border: 2px solid green;
+  padding: 4px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.parent {
+  background-color: chartreuse;
+  height: 200px;
+  width: 400px;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.child {
+  background-color: darkorange;
+  height: 80px;
+  width: 100px;
+  margin-left: 20px;
+  font-size: 1.5em;
+  border: 0.2em solid;
+  padding: 10px;
+}
+
+/* Inline-block */
+.ib {
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+
+/* em : Relative to the font size of the element's parent */
+/* rem : Relative to font size of the root element (<html>) */

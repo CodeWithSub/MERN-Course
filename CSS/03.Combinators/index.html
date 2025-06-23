@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combinators</title>
+</head>
+
+<body>
+
+  <h1>CSS Combinators Example</h1>
+
+  <!-- Descendant -->
+  <div class="section descendant-container">
+    <h2>Descendant Combinator</h2>
+    <div>
+      <p>This paragraph is a descendant of .descendant-container (green).</p>
+    </div>
+  </div>
+
+  <!-- Child -->
+  <div class="section child-container">
+    <h2>Child Combinator</h2>
+    <p>This paragraph is a direct child of .child-container (blue).</p>
+    <div>
+      <p>This paragraph is NOT a direct child, so it's not styled.</p>
+    </div>
+  </div>
+
+  <!-- Adjacent + General Sibling -->
+  <div class="section sibling-container">
+    <h2>Sibling Combinators</h2>
+    <p>This is the adjacent sibling of h2 (red).</p>
+    <p>This is another paragraph that is a general sibling (italic).</p>
+    <div>Not a sibling, so not styled.</div>
+  </div>
+
+</body>
+
+</html>

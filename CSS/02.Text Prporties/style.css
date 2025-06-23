@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  background-color: aqua;
+  color: red;
+}
+
+h2 {
+  text-decoration: underline blue wavy;
+}
+
+h3 {
+  color: lightpink;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+/* Units in CSS sould not be used in px for responsive website */
