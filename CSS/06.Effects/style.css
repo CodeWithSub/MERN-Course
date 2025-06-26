@@ -1,0 +1,23 @@
+div {
+  margin-bottom: 20px;
+}
+
+.alpha-channel {
+  height: 60px;
+  width: 300px;
+  background-color: rgba(252, 216, 205, 0.8);
+}
+
+.box-shadow {
+  height: 60px;
+  width: 300px;
+  background-color: rgb(254, 235, 246);
+  box-shadow: 2px 2px 4px rgb(210, 63, 63);
+}
+
+.opacity {
+  height: 60px;
+  width: 300px;
+  background-color: rgb(235, 214, 251);
+  opacity: 0.5;
+}

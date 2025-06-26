@@ -1,0 +1,22 @@
+.transition {
+  height: 100px;
+  width: 600px;
+  background-color: rgb(255, 237, 243);
+  color: rgb(232, 152, 138);
+  text-align: center;
+  box-shadow: 4px 6px 8px black;
+  cursor: pointer;
+  transition: background-color 1s ease-in 0s,
+    border-radius 1s ease 0s,
+    box-shadow 0.5s ease-in-out 1s,
+    margin-left 1s ease-in-out 0s;
+}
+
+.transition:hover {
+  background-color: aquamarine;
+  color: rgb(236, 54, 114);
+  box-shadow: 6px 8px 12px black;
+  cursor: pointer;
+  margin-left: 100px;
+  border-radius: 50px;
+}
