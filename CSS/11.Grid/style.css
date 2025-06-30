@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  text-decoration: underline red;
+}
+
+.box {
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color: aquamarine;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  /* row-gap column-gap*/
+  gap: 4px 6px;
+  justify-items: center;
+  align-items: center;
+}
+
+/* grid-columns: start | end;
+Define an item's starting and ending position inside the column */
+#four {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: start;
+}
+
+/* grid-rows: start | end;
+Define an item's starting and ending position inside the rows */
+#two {
+  background-color: blueviolet;
+  grid-row: 1/span 2;
+  justify-self: end;
+}

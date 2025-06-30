@@ -1,0 +1,69 @@
+div {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes borderAnimation {
+  from {
+    border-radius: 0px;
+  }
+
+  to {
+    border-radius: 50%;
+  }
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translateY(50%);
+  }
+
+  70% {
+    transform: translateX(50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.one:hover {
+  /* animation: name duration timing-function  delay iteration-count direction */
+  animation: borderAnimation 3s ease 0s 2 normal;
+}
+
+.two {
+  background-color: beige;
+}
+
+.two:hover {
+  animation: moveRight 2s ease 0s 1 normal;
+}
+
+.three {
+  background-color: blueviolet;
+}
+
+.three:hover {
+  animation: move 3s ease 0s 1 normal forwards;
+}
