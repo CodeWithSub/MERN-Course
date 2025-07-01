@@ -1,0 +1,54 @@
+body {
+  font-family: monospace, 'Courier New', Courier;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
+span {
+  color: rgb(208, 125, 23);
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
+
+}
+
+/* media queries */
+@media(max-width:426px) {
+
+  h2,
+  h1 {
+    text-align: center;
+  }
+
+  #pets {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .card {
+    height: auto;
+    width: auto;
+
+
+  }
+}

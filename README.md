@@ -14,8 +14,9 @@ Right now, I'm learning the **fundamentals of front-end development**, and this 
 ## 📁 Repository Structure
 
 - [HTML](./HTML/) – Exercises and mini-projects while learning HTML  
-- [CSSL](./CSS/) – Exercises and mini-projects while learning CSS  
+- [CSS](./CSS/) – Exercises and mini-projects while learning CSS  
 - [Notes](./Notes/) – Personal notes, cheat sheets, and learning resources
+- [Mini Projects](./Mini_Projects/) – Mini projects for practice in multiple technologies
 
 *More folders and contents will be added as I move forward.*
 
