@@ -15,6 +15,7 @@ Right now, I'm learning the **fundamentals of front-end development**, and this 
 
 - [HTML](./HTML/) – Exercises and mini-projects while learning HTML  
 - [CSS](./CSS/) – Exercises and mini-projects while learning CSS  
+- [Bootstrap](./Bootstrap/) – Exercises and mini-projects while learning Bootstrap  
 - [Notes](./Notes/) – Personal notes, cheat sheets, and learning resources
 - [Mini Projects](./Mini_Projects/) – Mini projects for practice in multiple technologies
 
