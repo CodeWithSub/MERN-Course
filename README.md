@@ -24,22 +24,31 @@ Right now, I'm learning the **fundamentals of front-end development**, and this 
 
 ## 📚 Current Focus
 
-- Learning the **foundations of web development** with HTML and CSS  
-- Building responsive layouts using **Flexbox** and **CSS Grid**  
-- Practicing **semantic HTML** for better structure and accessibility  
-- Creating small, static web pages to apply my skills  
-- Exploring **Git** and **GitHub** for version control and collaboration
+- 📘 Strengthening JavaScript fundamentals (ES6+, DOM manipulation, events)
+
+- 💡 Building interactive front-end projects using HTML, CSS, Bootstrap & JavaScript
+
+- 🎨 Creating responsive layouts with Flexbox and CSS Grid
+
+- 🧱 Practicing semantic HTML for clean structure and accessibility
+
+- 🔧 Using Git and GitHub for version control and collaboration
 
 ---
 
 ## 🎯 Future Goals
 
-- 🔜 Learn and apply JavaScript fundamentals  
-- 🔜 Build interactive front-end features using React  
-- 🔜 Learn how to build APIs with Node.js and Express  
-- 🔜 Integrate MongoDB for full-stack functionality  
-- 🚀 Build and deploy a full-stack MERN application  
-- 💼 Create a portfolio site to showcase my projects
+- 🧠 Deepen knowledge of JavaScript: async functions, fetch API, modular code
+
+- ⚛️ Learn and build dynamic UIs with React
+
+- 🌐 Develop and connect RESTful APIs using Node.js and Express
+
+- 🗄️ Work with MongoDB for full-stack development (MERN stack)
+
+- 🚀 Build and deploy a complete MERN application
+
+- 🌟 Create and launch a professional portfolio website to showcase pro
 
 ---
 
