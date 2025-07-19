@@ -89,3 +89,53 @@ outer();
 // Output:
 // Outer function
 // Inner function
+
+// Higher-Order Functions in JavaScript
+
+// 1. What is a Higher-Order Function?
+// A function that takes another function as an argument, returns a function, or both
+
+// 2. Passing function as argument
+function greet(name) {
+  return "Hello, " + name;
+}
+
+function processUser(name, callback) {
+  console.log(callback(name));
+}
+
+processUser("Alice", greet); // Hello, Alice
+
+// 3. Returning a function
+function multiplier(factor) {
+  return function (number) {
+    return number * factor;
+  };
+}
+
+const double = multiplier(2);
+console.log(double(5)); // 10
+
+// 4. Array methods as higher-order functions
+
+// forEach - perform an action on each element
+const nums = [1, 2, 3];
+nums.forEach(function (num) {
+  console.log("Value:", num);
+});
+
+// map - transform array elements
+const squared = nums.map(function (num) {
+  return num * num;
+});
+console.log(squared); // [1, 4, 9]
+
+// filter - return elements that match condition
+const evens = nums.filter(function (num) {
+  return num % 2 === 0;
+});
+console.log(evens); // [2]
+
+// 5. Using arrow functions
+const tripled = nums.map(n => n * 3);
+console.log(tripled); // [3, 6, 9]
