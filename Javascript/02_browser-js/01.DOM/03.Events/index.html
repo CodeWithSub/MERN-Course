@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Events</title>
+  <style>
+    .btn {
+      margin: 5px;
+      padding: 5px 10px;
+    }
+
+    .box {
+      border: 1px solid #000;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .item {
+      padding: 5px;
+      border: 1px dashed #333;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>DOM Event Demo</h2>
+
+  <!-- Click + Mouse -->
+  <button class="btn" onclick="basicClick(this)">Click Me</button>
+  <div class="btn" onmouseover="mouseHover(this)">Hover Over Me</div>
+
+  <!-- Keyboard -->
+  <input type="text" id="keyboardInput" placeholder="Type something and check console" />
+
+  <!-- Form -->
+  <form id="userForm">
+    <input type="text" name="username" placeholder="Username" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Input event -->
+  <input type="range" id="slider" min="0" max="100" />
+  <p>Slider Value: <span id="sliderValue">0</span></p>
+
+  <!-- Bubbling + Delegation -->
+  <div id="parentBox" class="box">
+    <p>Parent Box (click items below)</p>
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

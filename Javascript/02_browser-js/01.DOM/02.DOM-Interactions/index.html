@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Interactions</title>
+  <style>
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+
+    .box {
+      border: 1px solid #000;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .child {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="main-title">DOM Demo</h1>
+
+  <p class="info">This is a paragraph.</p>
+  <p class="info">This is another paragraph with same class.</p>
+
+  <div id="container" class="box">
+    <p class="child">Child 1</p>
+    <p class="child">Child 2</p>
+  </div>
+
+  <a href="https://example.com" id="myLink">Visit Site</a>
+
+  <div>
+    <span>This span will be selected by tag name.</span>
+    <span>Another span</span>
+  </div>
+
+  <button onclick="runDomDemo()">Run DOM Demo</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
