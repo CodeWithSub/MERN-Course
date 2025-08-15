@@ -1,0 +1,12 @@
+<%- include("includes/head.ejs") %>
+
+  <body>
+    <!--Passing data to -->
+    <h1>
+      Dice gave value: <%= num %>
+    </h1>
+
+    <% if (num==6) { %>
+      <h2>Roll dice again</h2>
+      <% } %>
+  </body>
