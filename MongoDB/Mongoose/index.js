@@ -41,7 +41,7 @@ User.insertMany([{ name: "Ankita", email: "ankita@gmail.com", age: 17 },  // Ins
     console.log(err);
   });
 
-Find in Mongoose
+// Find in Mongoose
 
 User.find() // Returns a query object which is thennable
   .then((data) => {
@@ -55,7 +55,7 @@ User.find({ age: { $gt: 20 } })
 
 User.findById("68beed8b029368c41198737b")
   .then((data) => {
-    console.log(data.name);
+    console.log(data);
   });
 
 // Find and update
@@ -65,7 +65,7 @@ User.findOneAndUpdate({ name: "Subhransu Kumar" }, { name: "S.Kumar" }, { new: t
     console.log(res);
   })
 
-Delete in mongoose
+// Delete in mongoose
 
 User.findOneAndDelete({ age: { $gt: 20 } }, { new: true })
   .then((res) => {
