@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Users</title>
+  <link rel="stylesheet" href="/table.css">
+</head>
+
+<body>
+  <table>
+    <caption>List of registered users</caption>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% users.forEach((user, index)=> { %>
+        <tr>
+          <td>
+            <%= index + 1 %>
+          </td>
+          <td>
+            <%= user.id %>
+          </td>
+          <td>
+            <%= user.username %>
+          </td>
+          <td>
+            <%= user.email %>
+          </td>
+          <td>
+            <form action="/users/<%= user.id %>/edit">
+              <button>Edit</button>
+            </form>
+          </td>
+        </tr>
+        <% }) %>
+    </tbody>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Table header styling */
+thead tr {
+  background-color: #f2f2f2;
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+  /* White */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+  /* Light gray */
+}
+
+/* Optional: highlight on hover */
+tbody tr:hover {
+  background-color: #e6f7ff;
+}
